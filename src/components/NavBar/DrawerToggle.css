@@ -1,0 +1,33 @@
+@media only screen and (max-width:768px) {
+    Button {
+        display: inline;
+    }
+
+    #menu-btn,
+    #close-btn {
+        font-size: 30px;
+        margin: 10px;
+        color: orange;
+        display: none;
+    }
+
+    #menu-btn {
+        display: block;
+    }
+}
+
+Button {
+    display: inline;
+}
+
+#menu-btn,
+#close-btn {
+    font-size: 30px;
+    margin: 10px;
+    color: orange;
+    display: none;
+}
+
+#menu-btn {
+    display: block;
+}

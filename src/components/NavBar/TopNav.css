@@ -1,0 +1,150 @@
+.top-nav-bar {
+    font-size: 1.75rem;
+    height: 60px;
+    top: 0;
+    position: sticky;
+    background: #fff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid orange;
+    z-index: 2;
+}
+
+.logo {
+    height: 40px;
+    margin: 5px 10px;
+}
+
+
+
+.top-nav-bar .search-box h3 {
+    color: rgb(19, 18, 18);
+}
+
+.form-control {
+    margin-top: 9px;
+    margin-left: 35px;
+    height: 40px;
+    border: 1px solid orange !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+#basic-addon1 {
+    background: orange;
+    height: 36px;
+    border: 1px solid orange;
+    margin: 8.5px 10px 3px 0;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+}
+
+.top-nav-bar .search-box {
+    display: inline-flex;
+    width: 60%;
+}
+
+.input-group>.custom-select:not(:last-child),
+.input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 35px;
+}
+
+.menu-bar {
+    width: 30%;
+    float: right;
+    position: relative;
+
+}
+
+.cart-content {
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: -28px;
+    height: 100%;
+    box-shadow: 0px 10px 16px 0px rgba(14, 12, 12, 0.2);
+    border: 1px solid black;
+    z-index: 1;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    float: right;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+
+
+}
+
+.menu-bar ul li {
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 0px 35px;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.fa-cart-arrow-down {
+    margin-left: 5px;
+}
+
+.toolbar-toggle-button {
+    display: none;
+}
+
+
+@media only screen and (max-width:768px) {
+    .top-nav-bar {
+        height: 118px;
+        border-bottom: 0;
+    }
+
+    .top-nav-bar .search-box {
+        width: 100%;
+
+    }
+
+    .menu-bar {
+        width: 100%;
+    }
+
+    .menu-bar ul {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu-bar ul li {
+        height: 57px;
+        width: 100%;
+    }
+
+    .toolbar-toggle-button {
+        display: inline;
+    }
+
+}

@@ -1,0 +1,29 @@
+.slider {
+    width: 85%;
+    height: 200%;
+    margin-left: 15.2%;
+    padding: 0 10px;
+    position: relative;
+}
+
+.slider .slider-item {
+    height: 300px;
+
+}
+
+.carousel {
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5)
+}
+
+
+@media only screen and (max-width:776px) {
+    .slider {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        height: 100%;
+        padding: 5px;
+        margin-top: 0;
+        height: 100%;
+    }
+}

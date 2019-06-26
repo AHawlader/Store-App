@@ -1,0 +1,24 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f3f4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card-row {
+  width: 100%;
+  padding: 20px
+}
+
+.card-view {
+  width: 100%;
+
+}
+
+html {
+  height: 100%;
+}
